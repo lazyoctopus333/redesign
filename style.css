@@ -1,0 +1,100 @@
+ /* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),/* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body{
+    font-family: "Inter";
+    background-color: #C6C6C6 ;
+}
+
+.btn:hover,
+.btn:focus{
+    border-color: aqua;
+    filter:brightness(100%);
+}
+
+.btn-lg{
+    background-color: #0B0B0B;
+}
+
+  /* Rectangle 5 */
+.food-pic {
+    position: absolute;
+    width: 230px;
+    height: 184px;
+    /* left: 263px;
+    top: 332px;
+    background: url(/Users/orlandocedeno/cs1300/responsiveredesign/images/Honey-Garlic-Shrimp-main-1.webp); */
+    border: 1.5px solid #000000;
+    
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-top: calc(var(--bs-gutter-x) * 4);
+    padding-bottom: calc(var(--bs-gutter-x) * 4);
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.headers{
+    display: flexbox;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.images-text{
+    --bs-gutter-x: .25rem;
+    --bs-gutter-y: 0;
+    display: flexbox;
+    flex-direction: column;
+    padding-top: calc(var(--bs-gutter-x) * 0.5);
+    padding-bottom: calc(var(--bs-gutter-x) * 0.5);
+    gap: 20px;
+}
+
+.heading-container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 450px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.checkout{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.signin{
+    display: flex;
+    text-align: start;
+    color:black;
+    justify-content: flex-start;
+}
+/* position: absolute;
+width: 230px;
+height: 184px;
+left: 263px;
+top: 332px; 
+
+background: url(image.png);
+border: 1.5px solid #000000; */
